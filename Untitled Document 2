@@ -1,0 +1,265 @@
+ <html>
+
+<head>
+<style>
+
+
+
+
+.row_2 {
+		background: #59D5DE;
+	}
+    #container {
+	background-color: white !important;
+}
+.menu-item-home img {
+	width: 36px;
+	height: 36px;
+}
+
+#menu-new-menu {
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 5px !important;
+}
+#menu-new-menu .sub-menu {
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+#menu-new-menu .sub-menu li a{
+	font-size: 16px !important;
+}
+#menu-new-menu .sub-menu .sub-menu{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+#menu-new-menu .sub-menu .sub-menu .sub-menu{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s ease;
+}
+#menu-new-menu li.menu-item-has-children:hover > ul.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+	transition: 1.5s ease;
+	z-index: 99;
+}
+#menu-new-menu li.menu-item-has-children:hover ul.sub-menu > li.menu-item-has-children:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+	transition: 0.5s ease;
+	z-index: 99;
+}
+#menu-new-menu li.menu-item-has-children:hover ul.sub-menu li.menu-item-has-children:hover ul.sub-menu > li.menu-item-has-children:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+	transition: 0.5s ease;
+	z-index: 99;
+}
+
+#menu-new-menu li.menu-item-has-children ul.sub-menu > li.menu-item-has-children {
+	padding-top: 10px;
+}
+#menu-new-menu ul.sub-menu {
+	background-color: #59D5DE;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+    margin-left: 0px;
+}
+#menu-new-menu li.menu-item-has-children {
+	padding-left: 10px;
+	padding-right: 20px;
+	position: relative;
+}
+#menu-new-menu li {
+    list-style: none;
+	padding-left: 20px !important;
+}
+#menu-new-menu li a {
+	font-size: 20px !important;
+	line-height: 30px !important;
+	color: #fff !important;
+	font-weight: 600;
+}
+
+#menu-new-menu li a:hover {
+	color: #000 !important;
+}
+#menu-new-menu li span {
+	display: none !important;
+}
+#menu-new-menu li .sub-menu {
+	top: 30px;
+}
+#menu-new-menu li .sub-menu .sub-menu {
+	left: 290px;
+    top: -6px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+#menu-new-menu li {
+	padding-left: 20px !important;
+}
+#menu-new-menu li a {
+	font-size: 20px !important;
+	line-height: 30px !important;
+	color: #fff !important;
+	font-weight: 600;
+}
+
+
+
+
+
+#menu-new-menu li span {
+	display: none !important;
+}
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+    <body>
+ <div class="row_2">
+                    <div class="menu_row">
+                         <div class="custom-menu-class"><ul id="menu-new-menu" class="menu"><li id="menu-item-18868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-18540 current_page_item menu-item-18868"><a href="http://krmmc.edu.in/" aria-current="page" class="menu-image-title-hide menu-image-not-hovered"><span class="menu-image-title-hide menu-image-title">Home</span><img width="48" height="48" src="http://krmmc.edu.in/wp-content/uploads/2022/06/Mask-group-2.png" class="menu-image menu-image-title-hide" alt="" /></a></li>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<li id="menu-item-18723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18723"><a href="http://krmmc.edu.in/administration/">Administration</a>
+<ul class="sub-menu">
+	<li id="menu-item-18724" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18724"><a href="/administration/#1526740131290-a6a0137d-2f9a">College governing Council</a></li>
+	<li id="menu-item-18725" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18725"><a href="/administration/#1585293330375-c640f0b1-1923">Secretary Message</a></li>
+	<li id="menu-item-18726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18726"><a href="/administration/#1585308116135-2b07fda9-e3d0">Principal Message</a></li>
+	<li id="menu-item-18727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18727"><a href="/administration/#1585293312255-ab0441fd-08f7">Strategic plan policy</a></li>
+	<li id="menu-item-18728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18728"><a href="/administration/#1621580468554-b4ebff94-e538">Organogram</a></li>
+</ul>
+</li>
+<li id="menu-item-18729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18729"><a href="http://krmmc.edu.in/httpkrmmc-edu-inacademics/">Academics</a>
+<ul class="sub-menu">
+	<li id="menu-item-18730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18730"><a href="http://krmmc.edu.in/departments/ug/">UG Courses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18731"><a href="http://krmmc.edu.in/departments/ug/shift-1/">Shift 1</a>
+		<ul class="sub-menu">
+			<li id="menu-item-18870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18870"><a href="http://krmmc.edu.in/departments/ug/shift-1/computer-science/">B.Sc Computer Science</a></li>
+			<li id="menu-item-18736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18736"><a href="http://krmmc.edu.in/departments/ug/shift-1/computer-applications/">B.C.A Computer Applications</a></li>
+			<li id="menu-item-18737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18737"><a href="http://krmmc.edu.in/departments/ug/shift-1/biotechnology/">B.Sc Biotechnology</a></li>
+			<li id="menu-item-18738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18738"><a href="http://krmmc.edu.in/departments/ug/shift-1/visual-communication/">B.Sc. Visual Communication</a></li>
+			<li id="menu-item-18739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18739"><a href="http://krmmc.edu.in/departments/ug/shift-1/commerce/">B.com General</a></li>
+			<li id="menu-item-18740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18740"><a href="http://krmmc.edu.in/departments/ug/shift-1/business-administration-and-economics/">B.B.A Business Administration</a></li>
+			<li id="menu-item-18741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18741"><a href="http://krmmc.edu.in/departments/ug/shift-1/corporate-secretary-ship/">B.Com Corporate Secretaryship</a></li>
+		</ul>
+</li>
+		<li id="menu-item-18743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18743"><a href="http://krmmc.edu.in/departments/ug/shift-2/">Shift 2</a>
+		<ul class="sub-menu">
+			<li id="menu-item-18744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18744"><a href="http://krmmc.edu.in/departments/ug/shift-2/b-comaf/">B.Com(A&#038;F)</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-18746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18746"><a href="http://krmmc.edu.in/departments/pg/">PG Courses</a>
+	<ul class="sub-menu">
+		<li id="menu-item-18747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18747"><a href="http://krmmc.edu.in/departments/pg/m-scbiotech/">M.Sc  Biotechnology</a></li>
+		<li id="menu-item-18748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18748"><a href="http://krmmc.edu.in/departments/pg/m-scit/">M.Sc Information Technology</a></li>
+		<li id="menu-item-18749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18749"><a href="http://krmmc.edu.in/departments/pg/m-combank-management/">M.Com Bank Management</a></li>
+	</ul>
+</li>
+	<li id="menu-item-18750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18750"><a href="http://krmmc.edu.in/departments/cbcs/">CBCS</a></li>
+	<li id="menu-item-18751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18751"><a href="http://krmmc.edu.in/departments/po-pso-cos/">PO, PSO, COs</a></li>
+	<li id="menu-item-18752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18752"><a href="http://krmmc.edu.in/departments/general-languages/">General Languages</a></li>
+</ul>
+</li>
+<li id="menu-item-18773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18773"><a href="http://krmmc.edu.in/placement-cell/">Placement</a></li>
+<li id="menu-item-18774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18774"><a href="http://krmmc.edu.in/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-18775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18775"><a href="/research/#5654hgfhABOUTTHERESEARCHCOUNCIL">About the Research wing</a></li>
+	<li id="menu-item-18776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18776"><a href="/research/#43234234">Research Committee</a></li>
+	<li id="menu-item-18777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18777"><a href="/research/#24q325434254">Functions</a></li>
+	<li id="menu-item-18778" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18778"><a href="/research/#158582355244">Plagarism Policy</a></li>
+	<li id="menu-item-18779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18779"><a href="/research/#5575764ugg">UGC- CARE Journals</a></li>
+	<li id="menu-item-18780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18780"><a href="/research/#1585826089319">Books / Proceedings / Journals</a></li>
+</ul>
+</li>
+<li id="menu-item-18791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18791"><a href="http://krmmc.edu.in/naac/">NAAC</a>
+    <ul class="sub-menu">
+        <li id="menu-item-18792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18792"><a href="http://krmmc.edu.in/aqar-3/">AQAR</a>
+        <ul class="sub-menu">
+            <li id="menu-item-18793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18793"><a href="/aqar-3/#1526740131290-a6a0137d-2f9aaqar19">2019-2020 Report</a></li>
+            <li id="menu-item-18794" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18794"><a href="#">2020-2021 Report</a>
+            <ul class="sub-menu">
+                <li id="menu-item-18795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18795"><a href="http://krmmc.edu.in/aqar-criterion/">AQAR Criterion</a></li>
+                <li id="menu-item-18796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18796"><a href="http://krmmc.edu.in/aqar-reports/#1526740131290-a6a0137d-2f9aaqareport">AQAR Reports</a></li>
+            </ul>
+    </li>
+            <li id="menu-item-18999" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18999"><a href="#">2021-2022 Report</a>
+            <ul class="sub-menu">
+                <li id="menu-item-19000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19000"><a href="http://krmmc.edu.in/aqar-criterion-new/">AQAR Criterion</a></li>
+                <li id="menu-item-19012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19012"><a href="http://krmmc.edu.in/aqar-reports-new/#a6a0137d-2f9aaqareport2022">AQAR Reports</a></li>
+            </ul>
+    </li>
+        </ul>
+    </li>
+        <li id="menu-item-18987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18987"><a target="_blank" rel="noopener noreferrer" href="http://krmmc.edu.in/wp-content/uploads/2015/12/undertaking.pdf">IIQA</a></li>
+        <li id="menu-item-18797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18797"><a href="http://krmmc.edu.in/ssr/">SSR</a>
+        <ul class="sub-menu">
+            <li id="menu-item-18798" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18798"><a href="/ssr/#1526740131290-a6a0137d-ssrcy1">SSR-CYCLE 1</a></li>
+            <li id="menu-item-18799" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18799"><a href="/ssr/#1620022596706-19431701-ssrcy2">SSR-CYCLE 2</a></li>
+            <li id="menu-item-18800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18800"><a href="/ssr/#1621430586346-6e0bdb13-3ssrcy3">SSR-CYCLE 3</a>
+            <ul class="sub-menu">
+                <li id="menu-item-18801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18801"><a href="http://krmmc.edu.in/ssr-criterion/">SSR Criterion</a></li>
+                <li id="menu-item-18802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18802"><a href="#">CYCLE 3 Reports</a></li>
+            </ul>
+    </li>
+        </ul>
+    </li>
+        <li id="menu-item-18803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18803"><a href="http://krmmc.edu.in/naac-certification/">NAAC Certification</a></li>
+    </ul>
+    </li>
+
+<li id="menu-item-18782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18782"><a href="/about-iqac/#1526740131290-a6a0137d-2f9a">IQAC</a>
+<ul class="sub-menu">
+	<li id="menu-item-18783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18783"><a href="/about-iqac/#5654hgfhgfgh">About IQAC</a></li>
+	<li id="menu-item-18784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18784"><a href="/about-iqac/#432342343gffc">Composition</a></li>
+	<li id="menu-item-18785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18785"><a href="/about-iqac/#24q3254342543cxcdf">IQAC  Minutes</a></li>
+	<li id="menu-item-18786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18786"><a href="/about-iqac/#1585823552446-1c023520-5972">Abhilekha</a></li>
+	<li id="menu-item-18787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18787"><a href="/about-iqac/#55757646gfg">Best Practices</a></li>
+	<li id="menu-item-18788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18788"><a href="/about-iqac/#1585826089319-6886eecd-6836">Code of Conduct</a></li>
+	<li id="menu-item-18789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18789"><a href="/about-iqac/#78657654564353fdfdf">Feedback Reports</a></li>
+	<li id="menu-item-18790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18790"><a href="/about-iqac/#7865654fdvfzxfd">Links</a></li>
+</ul>
+</li>
+
+
+<li id="menu-item-18781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18781"><a href="http://krmmc.edu.in/nirf/">NIRF</a></li>
+<li id="menu-item-18804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18804"><a href="http://krmmc.edu.in/documents/">Documents</a></li>
+
+    </nav> <!-- #header-menu -->
+
+                    </div>
+                </div>
+ </div>
+
+</body>
+ </html>
