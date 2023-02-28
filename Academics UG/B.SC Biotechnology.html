@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.SC Computer Science</title>
+  <style>
+
+	*
+	{	
+
+		
+		padding: 0;
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+
+	}
+	body{
+		border-top:.5vw solid #616161;
+		margin-top: .1vw;
+		background-color:white;
+
+	}
+	/* ////////////////////////////    logo    ////////////////////////////////////// */
+	.row-logo{
+		text-align: center;
+		display: flex;
+		width: 100%;
+		height: 15vw;
+		line-height: 2.6vw;
+		border-top-color: #070707;
+
+	}
+	
+.left-logo{
+	
+	text-align: center;
+	float: left;
+	width: 20%;
+
+	
+}
+.middle-logo{
+	margin: 5;
+	width: 60%;
+	color: brown;
+
+}
+.right-logo{
+	float: right;
+
+	width: 20%;
+
+}
+
+
+/* Clear floats after the columns */
+.row-logo:after {
+	display: table;
+  content: "";
+  clear: both;
+}
+
+/* ////////////////////   menu-bar ////////////////////////////// */
+.nav {
+	offset: sticky;
+	background-color:rgb(2, 126, 163);
+	width: 100%;
+	height: 5vw;
+	float: left;
+	overflow: hidden;
+
+}
+.nav ul{
+	list-style: none;
+   display: inline-flex;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.5vw;
+   text-indent: 3vw;
+   line-height: 5vw;
+  
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+
+}
+.nav img{
+	display: block;
+	float: left;
+	
+}
+
+.nav a:hover{
+	color: black;
+}
+/* side menu */
+.sd{
+    algin:left;
+    font-family: poppins;
+}
+/* heading */
+.head{
+    text-align: center;
+   font-weight: 600;
+   color: rgba(109, 95, 95, 0.904);
+   font-family: poppins;
+   font-size: 350%;
+}
+.para{
+    text-align: left;
+   font-weight: 600;
+   color: rgb(230, 40, 40);
+   font-family: poppins;
+   font-size: 150%;
+   margin-left: 2%;
+}
+.paragraph{
+    text-align: left;
+   font-family: poppins;
+   font-size: 100%;
+   margin-left: 2%;
+
+}
+/* footer */
+footer{
+            height: 30vw;
+            width: 98vw;
+            display: inline-flex;
+			background-color:rgb(228, 225, 228);
+        }
+
+     .footer-left-address{
+        height: 22.5vw;
+        width: 40vw;
+        font-size: 1.5vw;
+     }
+     .footer-left-icon{
+        width: 5vw;
+        float: left;
+        margin-top: 2vw;
+        margin-left:1vw ;
+     }
+     .footer-left-icon ul li{
+        list-style: none;
+     }
+     .footer-left-icon img{
+        max-width:4vw ;
+		margin-top: .5vw;
+        width: 10vw;
+
+     }
+     .foo-left{
+       
+        float: left;
+     }
+     .foo-left ul li{
+        text-indent: .5vw;
+        width: 20vw;
+        list-style: none;
+        margin-top: 2.5vw;
+     }
+   .footer-left-social{
+    margin-left: 10vw;
+    text-align: center;
+   }
+   .footer-left-social ul li{
+        margin-left: 22vw;
+        margin-top: 2.5vw;
+        list-style: none;
+
+
+   }
+     .footer-middle-map{
+        width: 30vw;
+        height: 22.5vw;
+        text-align: center;
+        
+     }
+     iframe{
+        padding: 0%;
+        margin: 0%;
+        margin-top: 4vw;
+        width: 20vw;
+        height:15vw;
+     }
+     .footer-right{
+        float: right;
+        width: 30vw;
+        height: 22.5vw;
+        text-align: center;
+        line-height: 3vw;
+     }
+     .footer-right ul{
+        margin-top: 2vw;
+     }
+     .footer-right ul li{
+        list-style: none;
+
+
+     }
+     .footer-right h2{
+        margin-top: .5vw ;
+        
+
+     }
+     .footer-right input{
+        border-radius: 2vw;
+        height: 3.3vw;
+        text-align: center;
+
+     }
+	 .footer-right input:hover{
+		background-color: #3806ec;
+		color: white;
+	 }
+
+	 .footer-in ul li{
+		height: 5vw;
+	 }
+	 .footer-right button{
+		width: 40%;
+		height: 25px;
+		background-color: blue;
+		color: white;
+		font-size: 1vw;
+		font-weight: 900;
+		border-radius: 2vw;
+		
+	 }
+	 .footer-right button:hover{
+		background-color: #09f3fb;
+		color: black;
+	 }
+	 .footer-right button::after{
+		background: #47f80b;
+	 } 
+</style>
+<link rel="stylesheet" type="text/css" href="res1.css">
+
+</head>
+<body>
+    <!----------------------------------header-------------------------------------------------->
+   <header>
+       <div class="row-logo">
+           <div class="column left-logo">
+               <img src="images/logo.png" style="  width: 14vw; height: 14vw;">
+           </div>
+           <div class="column middle-logo">
+               <h2 style="font-size: 2.4vw;" >KUMARARANI MEENA MUTHIAH COLLEGE OF ARTS AND SCIENCE</h2>
+               <h6 style=" font-weight:900; font-size: 1.5vw;"><b>(Affiliated to University of Madras | Reaccredited by NAAC | UGC 2(f) status)<br>
+                   Chettinad Group of Institutions</b></h6>
+   
+           </div>
+           <div class="column right-logo" >
+               <img src="images/25YEAR-LOGO-1.png" style="width: 14vw; height: 14vw;">
+           </div>
+       </div>
+       <div class="nav">
+               <ul><li>
+                   <a href="#">
+                   <img src="images/Mask-group-2.png"  style="width:3vw; margin-top: .9vw; margin-left: 1vw;" >
+                   </a></li>
+   
+                   <li><a href="#">Administration</a></li>
+                   <li><a href="#">Acadamics</a></li>
+                   <li><a href="#">Placements</a></li>
+                   <li><a href="#">Research</a></li>
+                   <li><a href="#">NIRF</a></li>
+                   <li><a href="#">IQAC</a></li>
+                   <li><a href="#">NAAC</a></li>
+                   <li><a href="#">Documents</a></li>
+               </ul>
+   
+       </div>
+         
+    <!----------------------------------end-of-header-------------------------------------------------->
+   </header>
+   <!-- side menu -->
+   <a class="sd" href="#">HOME/</a>
+   <a class="sd" href="#">DEPARTMENT/</a>   
+   <a class="sd" href="#">PG/</a>   
+   <a class="sd">(B.SC BioTechnology)</a> 
+     <!--heading  -->
+     <p class="head">B.SC BioTechnology</p> <br> <br>
+
+   <!-- ABOUT THE DEPT -->
+   <p class="para">About the department/Highlights</p> <br><br>
+   <div class="paragraph">
+    <h3><b>About the Department</b></h3> <br> 
+   <p>The department of Biotechnology was started with PG programme – M.Sc., Biotechnology during the year 2002. Subsequently, the UG program B.Sc Biotechnology was started during 2005.
+    Genetricks – Activities are conducted to stimulate ingenious thought that would aid to unleash their latent skill sets. To develop organizing skills and active participation in both curricular and extracurricular based activities in the field of Biotechnology.
+    </p> 
+<p>Biovistas the department magazine is released annually.</p><br>
+    <h3><b>Highlights of the department</b></h3> <br>
+    <ul>
+        <li>Exclusive Labs For Microbiology, Biochemistry, Plant and Animal Biotechnology & Molecular Biology.</li>
+<li> Faculty With Research Experience and expertise in various fields in life sciences</li>
+
+        <li>Excellent Academic Records with University Ranks</li>
+                <li>Offers optional Diploma course in DMLT as a value-add on course.</li>
+        <li>Cerficate Course On Phlebotomy &Clinical Lab Technology</li>
+        <li>MOU with Centre For Medical Genetics, Naga Institute Of Paramedical Science, Neem Biotec Biotechnology & Dr. UK Institute Of Health Science And Research </li>
+        <li>Conduct Of National Level Biodiversity Conferences Sponsored By National Biodiversity Authority Of India , Tamil Nadu State Council For Science And Technology (TNSCST).
+        </li>
+        <li>Lab Visits/Industrial Visits / 1 Week Internship Programs
+        </li>
+        <li>Training on Mushroom cultivation, Green Audit of the campus is done.
+        </li>
+        <li>ISR Activity –Safe Food- An Awareness Program to the public and School and College Students</li>
+    </ul>
+   </div>
+   <br>
+   <br>
+   <!-- footer -->
+   <footer>
+    <div class="footer-left-address"><h3 style="text-align: center; margin-top: 1vw;">Contact Us</h3>
+        <div class="footer-left-icon">
+            <ul>
+                  <li><img src="images/icons8-mail-50.png"></li>
+                  <li><img src="images/icons8-phone-50.png"></li>
+                  <li><img src="images/icons8-visit-50.png"></li>
+            </ul>
+        </div>
+        <div class="foo-left">
+            <ul>
+                <li><a href="mailto:principal.krmmc@gmail.com">principal.krmmc@gmail.com</a> </li><br>
+                <li><a href="tel:044 24450923">044 24450923</a></li><br>
+                <li><p>#4, Crescent Avenue Road, Gandhi Nagar, Adyar,<br>Chennai 600020.</p></li>
+                               
+            </ul>
+        </div>
+        <div class="footer-left-social">
+                   
+        <ul><h3>Social Media</h3>
+            <li><a href="https://www.facebook.com/krmmcofficial"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/krmmcofficial/?hl=en"><img src="images/icons8-instagram.svg" alt=""></a></li>
+            <li><a href="https://www.youtube.com/""><img src="images/youtube.png" alt=""></a></li>
+            
+        </ul>
+    </div>
+
+    </div>
+    <div class="footer-middle-map"><h2 style="margin-top:1vw">MAP</h2>
+        <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=30vw&amp;height=30vw&amp;hl=en&amp;q=krmmc college&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+    <div class="footer-right">
+        <form action="" method="post">
+            <h2>Enquire now</h2>
+            <div class="footer-in">
+            <ul>
+                <li><input type="name" name="your-email" value=""  placeholder="Name*" required></li>
+                <li><input type="email" name="your-name" value=""  placeholder="Email*" required></li>
+                <li><input type="tel" name="your-phone" value=""  placeholder="Phone Number*" required></li>
+            </ul>
+            <button type="submit" > submit</button>
+        </div>
+        </form>
+
+    </div>
+
+</footer>
+</body>
+</html>
+
+
+
+   
