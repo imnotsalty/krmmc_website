@@ -157,14 +157,78 @@ body {
 }
 
 
+@keyframes fade{
+  from{
+    opacity:0.4;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+
+#slider{
+  margin:0 auto;
+  width:100%;
+  overflow:hidden;
+}
+
+.slides{
+  overflow:hidden;
+  animation-name:fade;
+  animation-duration:1s;
+  display:none;
+}
+
+img{
+  width:100%;
+ 
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#d3d3d3;
+  padding:8px;
+  margin:10px 5px;
+}
+
+.active{
+  background:black;
+}
+
+@media (max-width:567px){
+  #slider{
+    width:100%;
+
+  }
+}
+
+#heading{
+  display:block;
+  text-align:center;
+  font-size:2em;
+  margin:10px 0px;
+
+}
+
+
+
+
 
     </style>
+	
+	
 </head>
 <body>
     <header>
         <div class="row-logo">
             <div class="column left-logo">
-                <img src="images/logo.png" style="  width: 14vw; height: 14vw;">
+                <img src="/images/logo1.png" style="  width: 14vw; height: 14vw;">
             </div>
             <div class="column middle-logo">
                 <h2 style="font-size: 2.4vw;" >KUMARARANI MEENA MUTHIAH COLLEGE OF ARTS AND SCIENCE</h2>
@@ -197,7 +261,7 @@ body {
      <!----------------------------------end-of-header-------------------------------------------------->
     </header>
 <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12" style="margin-top:40px;">
-<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+<div class="col-sm-12 col-lg-12 col-md-12 col-xs-12">
 <h1 style="font-weight:200;color:#810004;font-size:36px;text-align:center;"><b>WELCOME TO KRMMC</b></h1>
 </br>
 <p style="text-align:justify;font-size:18px;">Kumararani Meena Muthiah College of Arts and Science was founded in the year 1996, under the dynamic leadership of Dr. Mrs. Meena Muthiah, Secretary & Correspondent, Kumararani of Chettinad. The College aims to inculcate a sense of moral and cultural superiority of our nation in young minds, thereby making them responsible citizens to suit the national and global needs.</p>
@@ -208,25 +272,153 @@ body {
 </div>
 
 
-<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+
+</div>
 
 
-<iframe title="21st GRADUATION DAY" width="100%" height="300vh" src="https://www.youtube.com/embed/YxlFcvQYV58?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="col-sm-12 col-lg-12 col-md-12 col-xs-12" style="margin-top:40px;background-color:#F0F0F0;">
+<div class="col-sm-8 col-lg-8 col-md-8 col-xs-12" style="margin-top:20px;">
+<div id="slider"  height="200vh">  
+<div class="slides">  
+  <img src="https://hhsbanner.com/wp-content/uploads/2019/03/victoria_falls-900x300.jpg" width="100%" style="height:75vh;">
+ </div>
+  
+  <div class="slides">  
+  <img src="https://blog.cognifit.com/wp-content/uploads/2019/11/hiking-900x300.jpg" width="100%" style="height:75vh;">
+</div>
+  
+  <div class="slides">  
+  <img src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg" width="300vh" style="height:75vh;" />
+</div> 
+  
+   <div class="slides">  
+  <img src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" width="100%" style="height:75vh;">
+</div> 
+  
+<div class="slides">  
+  <img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg" width="100%" style="height:75vh;">
+</div>  
+  
+  <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+ </div>
+ <script>
+ var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,2000);
+  
+}
+
+changeSlide();
+ 
+ 
+ 
+ </script>
+</div>
 
 
+<div class="col-sm-4 col-lg-4 col-md-4 col-xs-12" style="background-color:white;margin-top:20px;height:35vh;overflow-x:hidden;overflow-y:auto;">
+<div>
+<h1 style="font-size:30px;text-align:center;"><b>Announcements</b></h1>
+</br>
+ <ul>
+ <li  style="text-align:justify;font-size:18px;">Admission  open for 2022-23</li>
+ <li  style="text-align:justify;font-size:18px;">University End Semester Examinations -15th June 2022 onwards</li>
+ <li  style="text-align:justify;font-size:18px;">II & III year classes can pay their fees for the academic year 2022-23 during all working days from 9.30 to 3pm</li>
+ <li   style="text-align:justify;font-size:18px;">C2C Placement Training for final years 2022-23 is scheduled during last week of July 2022.</li>
+
+ </ul>
+</div>
+
+
+</div>
+
+<div >
+
+<iframe title="21st GRADUATION DAY" width="33%" height="230vh" style="margin-top:23px;"	 src="https://www.youtube.com/embed/YxlFcvQYV58?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+
+<div class="col-sm-12 col-lg-12 col-md-12 col-xs-12" style="margin-top:40px;">
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>ADMISSION GUIDELINES</b></h1>
+</div>
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>INTERNAL QUALITY ASSURANCE</b></h1>
+</div>
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png"style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>PLACEMENT CELL</b></h1>
+</div>
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>ALUMNI</b></h1>
+</div>
 
 
 </div>
 
 
+<div class="col-sm-12 col-lg-12 col-md-12 col-xs-12" style="margin-top:40px;">
 
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>WOMEN FORUM</b></h1>
+</div>
 
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>ENTREPRENEURSHIP DEVELOPMENT</b></h1>
+</div>
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png"style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>E-CONTENT RESOURCES</b></h1>
+</div>
+
+<div class="col-sm-3 col-lg-3 col-md-3 col-xs-12">
+<img src="http://krmmc.edu.in/wp-content/uploads/2022/06/image-5-1.png" style="height:40vh;">
+<h1 style="font-size:20px;text-align:center;margin-top:20px;"><b>PRESS & MEDIA</b></h1>
+</div>
 
 
 </div>
+
+
 
 
 
  
 </body>
 </html>
+
