@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Placement</title>
+  <style>
+
+	*
+	{	
+		padding: 0;
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+
+	}
+	body{
+		border-top:.5vw solid #616161;
+		margin-top: .1vw;
+		background-color:#c0bebed3;
+
+	}
+	/* ////////////////////////////    logo    ////////////////////////////////////// */
+	.row-logo{
+      background-color: white;
+		text-align: center;
+		display: flex;
+		width: 100%;
+		height: 15vw;
+		line-height: 2.6vw;
+		border-top-color: #070707;
+
+	}
+	
+.left-logo{
+	
+	text-align: center;
+	float: left;
+	width: 20%;
+
+	
+}
+.middle-logo{
+	margin: 5;
+	width: 60%;
+	color: brown;
+
+}
+.right-logo{
+	float: right;
+
+	width: 20%;
+
+}
+
+
+/* Clear floats after the columns */
+.row-logo:after {
+	display: table;
+  content: "";
+  clear: both;
+}
+
+/* ////////////////////   menu-bar ////////////////////////////// */
+.nav {
+	offset: sticky;
+	background-color:rgb(2, 126, 163);
+	width: 100%;
+	height: 5vw;
+	float: left;
+	overflow: hidden;
+
+}
+.nav ul{
+	list-style: none;
+   display: inline-flex;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.5vw;
+   text-indent: 3vw;
+   line-height: 5vw;
+  
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+
+}
+.nav img{
+	display: block;
+	float: left;
+	
+}
+
+.nav a:hover{
+	color: black;
+}
+
+
+	/* ////////////////////////////////////////////////////////////////// */
+
+	/* ///////////////////////////////// body///////////////////////////////// */
+    
+			.placement{
+				height:60vh;
+				text-align: center;
+				line-height: 20vw;
+
+			 
+			}
+
+			.placement h2{
+				font-size: 2vw;
+			}
+
+			
+
+			
+			
+			 
+	/* ///////////////////////////////end-of-body/////////////////////////////////// */
+
+
+	/* ////////////////////////////////footer////////////////////////////////// */
+	*{
+            padding: 0;
+            margin: 0;
+        }
+        footer{
+            background-color:#070707;
+            color:white;
+            height: 22.5vw;
+            width: 100vw;
+            display: inline-flex;
+        }
+
+     .footer-left-address{
+        height: 22.5vw;
+        width: 40vw;
+        font-size: 1.5vw;
+     }
+     .footer-left-icon{
+        width: 5vw;
+        float: left;
+        margin-top: 2vw;
+        margin-left:1vw ;
+     }
+     .footer-left-icon ul li{
+        list-style: none;
+     }
+     .footer-left-icon img{
+        max-width:4vw ;
+        width: 10vw;
+
+     }
+     .foo-left{
+       
+        float: left;
+     }
+     .foo-left ul li{
+        text-indent: .5vw;
+        width: 20vw;
+        list-style: none;
+        margin-top: 2.5vw;
+     }
+   .footer-left-social{
+    margin-left: 10vw;
+    text-align: center;
+   }
+   .footer-left-social ul li{
+        margin-left: 22vw;
+        margin-top: 2.5vw;
+        list-style: none;
+
+
+   }
+     .footer-middle-map{
+        width: 30vw;
+        height: 22.5vw;
+        text-align: center;
+        
+     }
+     iframe{
+        padding: 0%;
+        margin: 0%;
+        margin-top: 4vw;
+        width: 20vw;
+        height:15vw;
+     }
+     .footer-right{
+        float: right;
+        width: 30vw;
+        height: 22.5vw;
+        text-align: center;
+        line-height: 3vw;
+     }
+     .footer-right ul{
+        margin-top: 2vw;
+     }
+     .footer-right ul li{
+        list-style: none;
+
+
+     }
+     .footer-right h3{
+        margin-top: 3vw ;
+        
+
+     }
+     .footer-right input{
+        border-radius: 2vw;
+        height: 1.9vw;
+        text-align: center;
+     }
+     @media all and (max-width:550px){
+       *{ padding: 0;
+        margin: 0;
+       }
+        footer{
+         background-color: black;
+            height: 900px;
+            width: 100%;
+            display: block;
+            color: white;
+        }
+
+     .footer-left-address{
+        height: 350px;
+        width: 100%;
+        font-size: 18px;
+     }
+     .footer-left-icon{
+        width: 10%;
+        float: left;
+
+      
+     }
+     .footer-left-icon ul li{
+        list-style: none;
+       max-width: 90%;
+        line-height: 60px;
+     }
+     .footer-left-icon img{
+        max-width:100%;
+
+     }
+    
+     .foo-left ul li{
+        width: 80%;
+        list-style: none;
+        height: 30px;
+     }
+     .foo-left{
+        height: 230px;
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 5px;
+     }
+   .footer-left-social{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline;
+
+
+   }
+   .footer-left-social{
+    width: 100%;
+    display: inline-block;
+    margin-left: -50px;
+
+   }
+   .footer-left-social img{
+    width: 36px;
+    text-align: center;
+    display: block;
+   }
+    
+   .footer-left-social ul li{
+    display: inline;
+
+   }
+   .footer-left-social li{
+    display: block;
+    width: 20px;
+    float: left;
+   }
+   
+
+     .footer-middle-map{
+        width: 100%;
+        margin-top: 10px;
+        height: 100px;
+        text-align: center;
+        
+     }
+     iframe{
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        height:100px;
+     }
+
+
+        .footer-right{
+            text-align: left;
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            font-size: medium;
+        }
+        .footer-right ul{
+        margin-top: 20px;
+     }
+     .footer-right ul li{
+        list-style: none;
+
+
+     }
+     .footer-right h3{
+        margin-top: 15px ;
+        
+
+     }
+     .footer-right input{
+        border-radius: 20px;
+        height: 30px;
+        text-align: center;
+        margin: 5px;
+     }
+    .footer-right button{
+            margin-top: 20px;
+        height: 20px;
+     }
+
+     }
+
+     
+	/* //////////////////////////////////end-of-footer//////////////////////////////// */
+
+  </style>
+	<link rel="stylesheet" type="text/css" href="res1.css">
+
+</head>
+<body>
+ <!----------------------------------header-------------------------------------------------->
+<header>
+	<div class="row-logo">
+		<div class="column left-logo">
+			<img src="images/logo.png" style="  width: 14vw; height: 14vw;">
+		</div>
+		<div class="column middle-logo">
+			<h2 style="font-size: 2.4vw;" >KUMARARANI MEENA MUTHIAH COLLEGE OF ARTS AND SCIENCE</h2>
+			<h6 style=" font-weight:900; font-size: 1.5vw;"><b>(Affiliated to University of Madras | Reaccredited by NAAC | UGC 2(f) status)<br>
+				Chettinad Group of Institutions</b></h6>
+
+		</div>
+		<div class="column right-logo" >
+			<img src="images/25YEAR-LOGO-1.png" style="width: 14vw; height: 14vw;">
+		</div>
+	</div>
+	<div class="nav">
+			<ul><li>
+				<a href="#">
+				<img src="images/Mask-group-2.png"  style="width:3vw; margin-top: .9vw; margin-left: 1vw;" >
+				</a></li>
+
+				<li><a href="#">Administration</a></li>
+				<li><a href="#">Acadamics</a></li>
+				<li><a href="#">Placements</a></li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">NIRF</a></li>
+				<li><a href="#">IQAC</a></li>
+				<li><a href="#">NAAC</a></li>
+				<li><a href="#">Documents</a></li>
+			</ul>
+
+	</div>
+	  
+ <!----------------------------------end-of-header-------------------------------------------------->
+</header>
+ 
+ <!----------------------------------main-------------------------------------------------->
+<div>
+
+<div class="placement">
+	<h2>PLACEMENT CELL</h2>
+</div>
+
+<style>
+	table,td {
+	  border:0.1vw solid rgb(158, 155, 155);
+	 
+	  padding: 1.1vw;
+	  font-size: 1.2vw;
+	}
+	</style>
+	
+	
+	<h2 style="background-color: rgb(2, 126, 163);line-height:3.5vw; font-size: 1.5vw; padding-left: 2.5vw; color: white;">Function Of the Placement Cell</h2>
+	
+<table style="width:100%" >
+	  <tr>
+		<td>
+		
+		The college has a very effective Placement Cell that has been catering to the needs of students by enabling them to get placed in reputed organizations and providing updated information on career opportunities.
+			<br><br>
+		<p><b>Some of the functions of the cell are: </b></p>
+				
+		<br>
+            <ul style="margin-left: 20px;">
+			<li>Enabling Students to get placed in top-notch organizations through campus recruitment.</li>
+			<br>
+			<li>Enabling Students to get placed in top-notch organizations through campus recruitment.</li>
+			<br>
+			<li>Organizing Pre Placement Training Programmes to improve the employability skills of the students.</li>
+			<br>
+			<li>Focusing on overall grooming and personality development of the students.</li>
+			<br>
+			<li>Conducting career development seminars to create awareness about the importance of higher studies from diploma to professional courses in India and Abroad.</li>
+			<br>
+			<li>Extending information on emerging professional trends, events, job profiles, career opportunities in different fields of study.</li>
+			<br>
+			<li>Facilitating the recruitment procedure.</li>
+			<br>
+			<li>Creating linkages with Industries and Institutions</li>
+			<br>
+			<li>Organising Job Fair in association with Industry</li>
+			
+         </ul>
+
+			<br><br>
+
+        <p><b>MILESTONE</b></p>
+		
+		<br>
+
+      <UL style="margin-left: 20px;">
+
+		<li>Industry Institute Partnership Programme</li>
+		<br>
+		<li>Training Programme On Employability Skills<</li>
+		<br>
+		<li>Seminar On Corporate Expectations</li>
+		<br>
+	    <li>Excellent Placement Record</li>
+		<br>
+		<li>Personality Development Programme</li>
+		<br>
+		<li>Parents Institute Industry Interface</li>
+		<br>
+		<li>Campus To Corporate Pre-Placement Training Programme</li>
+		<br>
+		<li>Internships</li>
+		<br>
+		<li>Placement Officers And HR Professionals Meet</li>
+		<br>
+		<li>Financial Education Workshop On Financial Planning</li>
+		<br>
+		<li>Awareness Programme On Job Opportunities In  Banking Sectors</li>
+		<br>
+		<li>Career Alumni Mentor Programme</li>
+		<br>
+		<li>MOU With Corporates</li>
+		<br>
+		<li>Panel Discussion</li>
+
+      </UL>
+        <br>
+    
+	   </td>
+	 </tr>
+</table>
+
+<h2 style="background-color: rgb(2, 126, 163);line-height:3.5vw; font-size: 1.5vw; padding-left: 2.5vw; color: white;">Placement Details</h2>
+
+
+<p style="padding-left: 2vw; font-size: 1vw;">LIST OF COMPANY FOR CAMPUS REQUIREMENT</p>
+
+
+
+<h2 style="background-color:rgb(2,126,163);line-height:3.5vw; font-size: 1.5vw; padding-left: 2.5vw; color: white;">Campus To Corporate - Finishing School program</h2>
+<table style="width:100%">
+
+<tr>
+	<td>
+		<P><b>AIM</b> : The  objective of the Programme is to empower the   college students with tools for improving their personal and professional  abilities which can enable them to get into Corporate World with adequate employability skills.</P>
+		<br>
+		<p><b>Course Content</b></p>
+      
+		<br>
+<ul style="margin-left: 20px;">
+		<li>Transition from College to Corporate world</li>
+		<br>
+		<li>Perceptions v/s Real Corporate life</li>
+		<br>
+		<li>SWOT Analysis</li>
+		<br>
+		<li>Goal setting and Career Planning</li>
+		<br>
+		<li>Self Esteem and Confidence Building</li>
+		<br>
+		<li>Business  Etiquette</li>
+		<br>
+		<li>Professional  Grooming</li>
+		<br>
+		<li>Resume Writing and Digital Resume</li>
+		<br>
+		<li>Interview   Techniques</li>
+		<br>
+		<li>Group Discussion</li>
+		<br>
+		<li>Conversational  and Verbal Skills</li>
+		<br>
+		<li>Analytical Skills</li>
+		<br>
+		<li>Aptitude Test</li>
+		<br>
+		<li>Business and Managerial skills</li>
+		<br>
+		<li>Assessment and Development</li>
+	</ul>
+	</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+</div>
+ 
+ <!---------------------------------- end-of-main -------------------------------------------------->
+
+ <!----------------------------------footer-------------------------------------------------->
+ <footer>
+    <div class="footer-left-address"><h3 style="text-align: center;">Contact Us</h3>
+        <div class="footer-left-icon">
+            <ul>
+                  <li><img src="images/icons8-mail-50.png"></li>
+                  <li><img src="images/icons8-phone-50.png"></li>
+                  <li><img src="images/icons8-visit-50.png"></li>
+            </ul>
+        </div>
+        <div class="foo-left">
+            <ul>
+                <li><a href="mailto:principal.krmmc@gmail.com">principal.krmmc@gmail.com</a> </li><br>
+                <li><a href="tel:044 24450923">044 24450923</a></li><br>
+                <li><p>#4, Crescent Avenue Road, Gandhi Nagar, Adyar,<br>Chennai 600020.</p></li>
+                               
+            </ul>
+        </div>
+        <div class="footer-left-social">
+                   
+        <ul>
+            <li><a href="https://www.facebook.com/krmmcofficial"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/krmmcofficial/?hl=en"><img src="images/icons8-instagram.svg" alt=""></a></li>
+            <li><a href="https://www.youtube.com/""><img src="images/youtube.png" alt=""></a></li>
+            
+        </ul>
+    </div>
+
+    </div>
+    <div class="footer-middle-map">
+        <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=30vw&amp;height=30vw&amp;hl=en&amp;q=krmmc college&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+    <div class="footer-right">
+        <form action="" method="post">
+            <h3>Enquire now</h3>
+            <div class="footer-in">
+            <ul>
+                <li><input type="name" name="your-email" value=""  placeholder="Name*"></li>
+                <li><input type="email" name="your-name" value=""  placeholder="Email*"></li>
+                <li><input type="tel" name="your-phone" value=""  placeholder="Phone Number*"></li>
+            </ul>
+            <button type="submit" > submit</button>
+        </div>
+        </form>
+
+    </div>
+
+</footer>
+ <!----------------------------------end-of-footer-------------------------------------------------->
+
+  <script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x= document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+
+  	if (n < 1) {slideIndex = x.length} ;
+
+  	for (i = 0; i < x.length; i++) {
+   		 x[i].style.display = "none";
+  	}
+  	x[slideIndex-1].style.display = "block";
+}
+
+
+
+
+    function displayContent(event, contentNameID) {
+
+let content = document.getElementsByClassName("contentClass");
+let totalCount = content.length;
+
+// Loop through the content class
+// and hide the tabs first
+for (let count = 0;
+  count < totalCount; count++) {
+  content[count].style.display = "none";
+}
+
+let links =
+  document.getElementsByClassName("linkClass");
+totalLinks = links.length;
+
+// Loop through the links and
+// remove the active class
+for (let count = 0;
+  count < totalLinks; count++) {
+  links[count].classList.remove("active");
+}
+
+// Display the current tab
+document.getElementById(contentNameID).style.display = "block";
+
+// Add the active class to the current tab
+event.currentTarget.classList.add("active");
+}
+
+  </script>
+</body>
+</html>
